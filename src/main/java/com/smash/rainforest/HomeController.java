@@ -25,4 +25,10 @@ public class HomeController {
     public Greeting sayHello(@RequestParam(name="name", required=false, defaultValue="Stranger") String name) {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
+
+    @GetMapping("/private")
+    @ResponseBody
+    public String getPrivate(){
+        return "This is private";
+    }
 }
