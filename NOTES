@@ -1,0 +1,10 @@
+current feature
+enable resource protection on controller components
+
+todo:
+need to map the login to a template page (or a html/jsp page)
+may need to separate the resources to a separate resource server (the resoure server can also be a backend of the UI application
+create a UI application
+
+test cases
+continuous integration
